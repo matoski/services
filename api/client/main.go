@@ -12,7 +12,7 @@ import (
 func main() {
 	// New Service
 	service := micro.NewService(
-		micro.Name("go.micro.client"),
+		micro.Name("go.micro.api.client"),
 	)
 
 	// Initialise service
