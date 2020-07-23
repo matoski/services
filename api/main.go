@@ -3,6 +3,7 @@ package main
 import (
 	"api/handler"
 	client "api/proto/client"
+
 	"github.com/micro/go-micro/v2"
 	"github.com/micro/go-micro/v2/api"
 	log "github.com/micro/go-micro/v2/logger"
@@ -11,7 +12,7 @@ import (
 func main() {
 	// New Service
 	service := micro.NewService(
-		micro.Name("go.micro.api.client"),
+		micro.Name("go.micro.client"),
 	)
 
 	// Initialise service
