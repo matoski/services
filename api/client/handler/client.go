@@ -8,7 +8,7 @@ import (
 	"github.com/micro/go-micro/v2/client"
 	log "github.com/micro/go-micro/v2/logger"
 	"github.com/micro/go-micro/v2/metadata"
-	pb "github.com/micro/services/client/api/proto/client"
+	pb "github.com/micro/services/api/client/proto/client"
 )
 
 type Client struct {
